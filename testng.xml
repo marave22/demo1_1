@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/mariam/Desktop/DunnesDemoPractice/demo1_1">
+        <classes>
+            <class name="org.example.demo1_1.MainPageTest">
+                <methods>
+                    <include name="openSignInPage"/>
+                    <include name="loginWithValidUsername"/>
+                    <include name="checkLoginSuccess"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
